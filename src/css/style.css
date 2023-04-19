@@ -20,3 +20,98 @@
 body, html {
     height: 100%;
 }
+
+.conteiner{
+    width: -webkit-fill-available;
+    height: 100%;
+    
+    background-color: var(--back-color);
+    padding: 20px 260px 0 ; 
+}
+@media (max-width:426px) and (min-width:320px) {
+    .conteiner {
+        padding: 20px 0;
+    }
+    
+}
+
+/*___________________________HEADER___________________________________*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotype {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name_logotype {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 59px;
+}
+.search {
+    width: 100%;
+    max-width: 373px;
+
+    flex: 2;
+}
+.search input {
+    width: 100%;
+    height: 50px;
+
+    background-color: var(--block-color);
+
+    border-radius: 5px;
+
+    padding: 13px 15px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav p {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+}
+.nav nav{
+    width: 100%;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.account_img {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.button_gamburger {
+    margin-left: 20px;
+}
+.accont_gambuger {
+    display: none;
+}
+.button_exit {
+}
+/*_____________________MAIN______________________________________*/
+
+/*_____________________FOOTER____________________________________*/
+
+.footer {
+    background-color: var(--block-color);
+    width: -webkit-fill-available;
+
+    text-align: center;
+    padding: 10px 0;
+}
